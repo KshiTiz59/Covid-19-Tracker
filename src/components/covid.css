@@ -188,7 +188,7 @@ margin: auto;
 }
 .created{
 
-    position: absolute; 
+    position: relative; 
     bottom: 0vh; 
     left: 0;
      width: 100%;
