@@ -188,14 +188,14 @@ margin: auto;
 }
 .created{
 
-    position: relative; 
+    position: absolute; 
     bottom: 0vh; 
     left: 0;
      width: 100%;
    font-size: 15px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-margin: 10px auto 0px auto ;  
+margin: 100px auto 0px auto ;  
 }
 .kshitiz{
     font-size: 30px;
@@ -226,7 +226,7 @@ font-family: 'Montserrat', sans-serif;
     }
    
 }
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1400px)
 {
     .created{
 
