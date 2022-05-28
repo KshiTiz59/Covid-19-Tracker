@@ -1,4 +1,3 @@
-import dayjs from 'dayjs';
 import React , {useState, useEffect}from 'react'
 import './covid.css'
 import logo from "../components/c.png"
