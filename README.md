@@ -2,6 +2,6 @@
 
 A website where you can get any country data about total cases , deaths , recovered , active , critical cases simply by searching by country name. 
 
-Technology Used : ReactJS. 
+Technology Used : ReactJS  
 API used : https://covid-193.p.rapidapi.com/countries  
-Link : https://covid-19tracker1.herokuapp.com/  
+Link for website : https://covid-19tracker1.herokuapp.com/  
