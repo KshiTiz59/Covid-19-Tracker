@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    min-height: 100vh;
+}
+
+img{
+width: 20px;
+height: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+.li{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+input{
+   margin: auto;
+   height: 30px;
+   width: 250px;
+   border: 3px solid blue;
+    border-radius: 10px  ;
+  color: blue;
+font-family: 'Montserrat', sans-serif;
+}
+input::placeholder{
+    color: blue;
+font-family: 'Montserrat', sans-serif;
+
+}
+.search{
+   display: flex;
+   flex-direction: row;
+    text-align: center;
+    margin-top: 50px;
+  color: blue;
+   font-weight: bold ;
+z-index: 999;
+
+}
+.screen{
+    width: 100%;
+    height: 100%;
+}
+.l{
+    display:flex ; 
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 100px 40px 100px 40px;
+}
+.card{
+margin: auto;
+
+}
+.card_main{
+   margin: 20px 40px 20px 40px; 
+   border-radius: 10px ;
+     box-shadow: 10px 10px 14px #888888;
+}
+.card_main:hover{
+    box-shadow: 10px 15px 14px #888888;
+}
+.card_inner1{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: red;
+    text-align: center;
+}
+.card_inner1:hover{
+    background-color:chocolate ;
+}
+.card_name{
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.card_total{
+    font-size: 25px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 0px;
+   margin-top: 10px;
+}
+.card_inner2{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:yellow;
+    text-align: center;
+}
+.card_inner2:hover{
+    background-color:springgreen;
+}
+.card_inner3{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:green;
+    text-align: center;
+}
+.card_inner3:hover{
+    background-color:darkgoldenrod ;
+}
+.card_inner4{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:blue;
+    text-align: center;
+}
+.card_inner4:hover{
+    background-color:rgb(234, 21, 234) ;
+}
+.card_inner5{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:violet;
+    text-align: center;
+}
+.card_inner5:hover{
+    background-color:rgb(28, 187, 193) ;
+}
+
+.card_inner6{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:tomato;
+    text-align: center;
+}
+.card_inner6:hover{
+    background-color:rgb(157, 180, 23) ;
+}
+.card_inner7{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:springgreen;
+    text-align: center;
+}
+.card_inner7:hover{
+    background-color:rgb(65, 55, 51) ;
+}
+.card_inner8{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:crimson;
+    text-align: center;
+}
+.card_inner8:hover{
+    background-color:rgb(212, 215, 29) ;
+}
+.card_total1{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+.bubbles{
+    position: relative;
+    display: flex;
+}
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 40px;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+.created{
+
+    position: absolute; 
+    bottom: 0vh; 
+    left: 0;
+     width: 100%;
+   font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+margin: 300px auto 10px auto ;  
+}
+.kshitiz{
+    font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+
+}   
+@keyframes animate {
+    0%{
+        transform: translateY(95vh) scale(0);
+       
+    }
+    100%{
+        transform: translateY(-40vh) scale(1);
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .screen{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .l{
+        display:flex ; 
+        flex-wrap: wrap;
+        list-style-type: none;
+        text-align: center;
+    }
+   
+}
+@media screen and (max-width: 1000px)
+{
+    .created{
+
+        position: relative; 
+        bottom: 0px; 
+        left: 0;
+         width: 100%;
+       font-size: 15px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    margin: 100px auto 10px auto ;  
+    }
+}
+.no_data{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
