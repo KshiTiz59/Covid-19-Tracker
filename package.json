@@ -2,10 +2,17 @@
   "name": "movie-app",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "engines": {
     "node": "16.13.1",
     "npm": "8.11.0"
   },
+=======
+   "engines": {
+    "node": "16.13.1" , 
+    "npm":"8.11.0"
+  } ,
+>>>>>>> d5a43de1134065598454d60bf36311c5d6ad2447
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
