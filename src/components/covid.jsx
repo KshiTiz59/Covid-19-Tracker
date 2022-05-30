@@ -28,6 +28,7 @@ const Covid = () => {
 
     return (
     <>
+    <div className='centre'>
     <div className='container'>
     <div className='bubbles'>
          <span style={{"--i":"11"}}> 
@@ -148,6 +149,8 @@ const Covid = () => {
 
         </ul>
         )}
+    </div>
+    
         <h2 className='created'>CREATED BY:<span className='kshitiz'> KSHITIZ KUMAR</span></h2>
     </div>
     </>

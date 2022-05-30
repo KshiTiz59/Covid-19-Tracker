@@ -41,7 +41,7 @@ z-index: 999;
 
 }
 .screen{
-    width: 100%;
+    width:auto ; 
     height: 100%;
 }
 .l{
@@ -172,19 +172,22 @@ margin: auto;
 .container{
     width: 100%;
     height: 100%;
-    
 }
 .bubbles{
     position: relative;
     display: flex;
+    width: 100%;
 }
 .bubbles span{
     position: relative;
     width: 30px;
     height: 30px;
-    margin: 0 40px;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(125s / var(--i));
+    margin:auto;
+    animation: animate 15s linear infinite ;
+    animation-duration: calc(300s / var(--i));
+}
+.centre{
+    text-align: center;
 }
 .created{
 
@@ -195,7 +198,7 @@ margin: auto;
    font-size: 15px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-margin: 100px auto 0px auto ;  
+margin: 500px auto 0px auto ;  
 }
 .kshitiz{
     font-size: 30px;
@@ -204,11 +207,11 @@ font-family: 'Montserrat', sans-serif;
 }   
 @keyframes animate {
     0%{
-        transform: translateY(95vh) scale(0);
-       
+        transform: translateY(95vh) scale(0) rotate(0deg);
     }
+   
     100%{
-        transform: translateY(-40vh) scale(1);
+        transform: translateY(-40vh) scale(1) rotate(360deg);
     }
 }
 @media screen and (max-width: 800px)
